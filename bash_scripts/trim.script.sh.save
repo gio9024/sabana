@@ -1,0 +1,5 @@
+#!ust/bin/env/
+#script to trim fastqs w trimmomatic
+
+trimmomatic PE -threads 4\
+SRR2584863_1.fastq.gz https://rachelss.github.io/LaSabana_Genomics/materials.html
